@@ -12,7 +12,7 @@ public class ContaTerminal {
         var nomeCliente = scanner.next();
         System.out.println("Informe o seu saldo: ");
         var saldo = scanner.nextDouble();
-        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo %.2f já está disponível para saque \n", numero, agencia, nomeCliente, saldo);
+        System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo %.2f já está disponível para saque \n", nomeCliente, agencia, numero, saldo);
         
         scanner.close();
 
